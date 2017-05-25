@@ -14,16 +14,30 @@
  *   limitations under the License.
  */
 #include "rubik_cube.hpp"
+#include "rubik_cube_solver.hpp"
 
 #include <string>
+#include <iostream>
 
 int main() {
     rb::RubikCube rb(3);
 
+    std::cout << "Scramble cube:" << std::endl;
     std::string moves = rb.Scramble();
     rb.Dump();
 
+    std::cout << "Inverse scramble steps:" << std::endl;
     rb.Inverse(moves);
+    rb.Dump();
+
+    std::cout << "Scramble cube again:" << std::endl;
+    rb.Scramble();
+    rb.Dump();
+    rb::RubikCubeSolver *solver = new rb::RubikCube3BasicSolver(rb);
+    moves = solver->Solve();
+
+    std::cout << "Moves solved by basic solver: " << moves << std::endl;
+    rb.Move(moves);    
     rb.Dump();
 
     return 0;

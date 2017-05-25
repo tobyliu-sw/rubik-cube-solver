@@ -3,7 +3,7 @@ project(rubik-cube-solver)
 
 find_package(OpenCV REQUIRED)
 
-set(SRC_FILES src/main.cpp src/rubik_cube.cpp)
+set(SRC_FILES src/main.cpp src/rubik_cube.cpp src/rubik_cube_3basic_solver.cpp)
 
 add_executable(rubik-cube-solver ${SRC_FILES})
 

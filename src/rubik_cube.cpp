@@ -193,7 +193,7 @@ void RubikCube::MapColors(const char* colors) {
                 char new_color_char = '\0';
 
                 for (int i = 0; i < 6; i += 2) {
-                    char color_char = colors[corner_coords[c][i] * piece_num_ + corner_coords[c][i + 1]];                    
+                    char color_char = colors[corner_coords[c][i] * piece_num_ + corner_coords[c][i + 1]];
                     if (color_index_map.find(color_char) != color_index_map.end()) {
                         corner_mask |= 1 << (color_index_map[color_char]);
                     } else {

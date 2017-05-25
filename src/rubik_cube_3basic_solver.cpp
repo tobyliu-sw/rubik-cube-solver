@@ -445,7 +445,7 @@ void RubikCube3BasicSolver::FindBestCubeOrientation() {
     int max_score = 0;
     int max_orient_idx = 0;
 
-    // Rotate/roll cube to make UP face toward UP
+    // Find the best orientation to start solving the cube
     for (int i = 0; i < 6; i ++) {
         int score = 0;
         if (IsCrossOriented(U)) {

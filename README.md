@@ -31,5 +31,5 @@ sudo apt-get install cmake
 ### Reference:
 
 1. RubikCube3BasicSolver refers to the layer-by-layer basic solution websites below.
-    - https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/
-    - http://www.ryanheise.com/cube/beginner.html
+    - [https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
+    - [http://www.ryanheise.com/cube/beginner.html](http://www.ryanheise.com/cube/beginner.html)

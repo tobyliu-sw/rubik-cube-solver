@@ -1,6 +1,6 @@
 ## Rubik's Cube Solver
 
-[rubik-cube-solver](https://github.com/toby-liu-os/rubik-cube-solver) is a C++ open source project to solve Rubik's cube.
+[rubik-cube-solver](https://github.com/tobyliu-sw/rubik-cube-solver) is a C++ open source project to solve Rubik's cube.
 
 ### System environment
 
